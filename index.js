@@ -30,7 +30,7 @@ const listBelanjaan = (dataBelanja) => {
     list.push(
       " - " +
       dataBelanja[i].nama +
-      " X " +
+      " x " +
       dataBelanja[i].kuantitas
     );
   }

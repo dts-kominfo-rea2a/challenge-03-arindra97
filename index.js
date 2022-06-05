@@ -28,7 +28,7 @@ const listBelanjaan = (dataBelanja) => {
   for (let i = 0; i < dataBelanja.length; i++) {
     // push data belanjaan ke dalam list
     list.push(
-      " - " +
+      "- " +
       dataBelanja[i].nama +
       " x " +
       dataBelanja[i].kuantitas
